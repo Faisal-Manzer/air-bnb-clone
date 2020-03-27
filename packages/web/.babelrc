@@ -1,0 +1,21 @@
+{
+  "presets": [
+    [
+      "react-app",
+      {
+        "flow": false,
+        "typescript": true
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": "css"
+      }
+    ]
+  ]
+}
