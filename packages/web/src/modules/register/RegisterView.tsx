@@ -13,20 +13,17 @@ export class RegisterView extends React.PureComponent {
             <div id="components-form-demo-normal-login">
                 <Form
                     name="normal_login"
-                    // @ts-ignore
                     className="login-form"
                     initialValues={{remember: true}}
                     onFinish={this.onFinish}
                 >
                     <Form.Item
-                        // @ts-ignore
                         name="username"
                         rules={[{required: true, message: 'Please input your Username!'}]}
                     >
                         <Input prefix={<UserOutlined className="site-form-item-icon"/>} placeholder="Username"/>
                     </Form.Item>
                     <Form.Item
-                        // @ts-ignore
                         name="password"
                         rules={[{required: true, message: 'Please input your Password!'}]}
                     >
@@ -38,7 +35,6 @@ export class RegisterView extends React.PureComponent {
                     </Form.Item>
                     <Form.Item>
                         <Form.Item
-                            // @ts-ignore
                             name="remember"
                             valuePropName="checked"
                             noStyle
@@ -50,7 +46,6 @@ export class RegisterView extends React.PureComponent {
                             Forgot password
                         </a>
                     </Form.Item>
-                    {/* @ts-ignore */}
                     <Form.Item>
                         <div>
                             <Button type="primary" htmlType="submit" className="login-form-button">
